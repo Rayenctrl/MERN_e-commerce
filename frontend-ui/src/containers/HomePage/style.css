@@ -1,0 +1,218 @@
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    display: block;
+}
+
+.small-12{
+    max-width: 100%;
+    width: 100%;
+    margin: 50px 0;
+}
+
+
+.roww{
+    border: 0;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  height: auto;
+}
+.body{
+    width: 30%;
+}
+.trust-msg_body{
+    font-size: .875rem;
+    font-weight: 500;
+    margin-bottom: .625rem;
+}
+
+
+.delivery-body>p{
+    width: 100%;
+}
+
+h3 {
+    line-height: 1.4;
+    font-style: normal;
+    display: block;
+    font-family: Montserrat,Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .09375rem;
+    font-size: .75rem;
+    color: rgb(120, 174, 110);
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 1.5rem;
+    font-size: inherit;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
+    color: inherit;
+    
+}
+
+.heading-home{
+    font-family: Montserrat,Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    line-height: 1.4;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 2.25rem 0;
+}
+.text-center{
+    text-align: center;
+}
+
+.delivery-banner_inner{
+    color: rgb(231, 229, 226);
+    text-align: center;
+    padding: 1.5rem;
+    min-height: 7.625rem;
+}
+.row{
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    flex-flow: row wrap;
+}
+.rows{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.medium-12{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.small-centered{
+    float: none;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+}
+.delivery-banner{
+    background-image: url(https://images.unsplash.com/photo-1559720092-98f763329fce?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 150px;
+}
+.trust-messages{
+    background-color: rgb(28, 31, 32);
+    border-top-color: rgb(57, 62, 64);
+    opacity: .7;
+    border-top: .0625rem solid #dedede;
+    padding-top: 3.125rem;
+}
+.small-12{
+    width: 100%;
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.column{
+    padding-right: .625rem;
+    padding-left: .625rem;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: center; 
+    justify-content: center;
+    width: 100%;
+}
+.small-centered{
+    float: none;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+}
+.unstyled-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-image: initial;
+}
+.media{
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+.media_stacked{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+}
+.trust-message_item{
+    margin-bottom: 3.125rem;
+    width: 50%;
+    padding: 0 .625rem;
+}
+
+.media_img-stacked{
+    margin: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    padding-right: .9375rem;
+}
+li {
+    font-size: inherit;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.trust-msg_heading{
+    font-family: Montserrat,Lato,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: .3125rem;
+    text-transform: uppercase;
+}
+.trust-msg_body{
+    font-size: .875rem;
+    font-weight: 500;
+    margin-bottom: .625rem;
+}
+
+.footer-text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
